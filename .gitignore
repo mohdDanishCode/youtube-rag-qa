@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables / Secrets
+.env
+.env.*
+!.env.example
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ChromaDB Vector Database
+chroma_db/
+
+# Generated Data
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
