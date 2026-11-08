@@ -4,7 +4,8 @@ from src.vector_store import create_vector_store
 from src.qa_chain import answer_question
 
 
-video_url = "https://www.youtube.com/watch?v=yC36gN-rqjo"
+video_url = input("\nEnter Youtube Url:")
+
 
 # Step 1: Load YouTube transcript
 documents = load_youtube_transcript(video_url)
